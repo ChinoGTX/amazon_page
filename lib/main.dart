@@ -1,6 +1,7 @@
 import 'package:amazon_web/screens/StockupCollege.Dart';
 import 'package:amazon_web/screens/bargains_finds.dart';
 import 'package:amazon_web/screens/sign_in_screen.dart';
+import 'package:amazon_web/screens/MensMustHaveShoes.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
@@ -28,11 +29,14 @@ class MyApp extends StatelessWidget {
                       BargainsFinds(),
                       const SizedBox(width: 10), 
                       StockUpForCollege(),
+                      const SizedBox(width: 10), 
+                      MensMustHaveShoes(), 
                     ],
                   ),
                 ),
               ),
 
+              
               Align(
                 alignment: Alignment.bottomRight,
                 child: SizedBox(
